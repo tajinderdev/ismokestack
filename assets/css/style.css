@@ -1,18 +1,18 @@
-*{
-  margin: 0;
-  padding: 0;
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
     font-family: 'RifficFree';
     src: url('../../fonts/RifficFree-Bold.ttf') format('truetype');
 }
-  
+
 @font-face {
     font-family: 'agent_orange';
     src: url('../../fonts/AGENTORANGE.TTF') format('truetype');
 }
+
 @font-face {
     font-family: 'GalanoGrotesqueAltMedium';
     src: url('../../fonts/GalanoGrotesqueAltMedium.otf') format('truetype');
@@ -29,149 +29,343 @@
     src: url('../../fonts/GalanoGrotesqueAltRegular.otf') format('truetype');
 }
 
-  
-/*animations*/
 
+/*animations*/
 @keyframes movetop {
-  from {padding-top: 13rem;}
-  to {padding-top: 3rem;}
+    from {
+        padding-top: 13rem;
+    }
+
+    to {
+        padding-top: 3rem;
+    }
 }
+
 @keyframes movedown {
-  from {top: -160px;}
-  to {top: 0px;}
+    from {
+        top: -160px;
+    }
+
+    to {
+        top: 0px;
+    }
 }
+
 @keyframes moveleft {
-  from {top: -380px;left: -560px;}
-  to {top: 20px;left: -115px;}
+    from {
+        top: -380px;
+        left: -560px;
+    }
+
+    to {
+        top: 20px;
+        left: -115px;
+    }
 }
+
 @keyframes moveright {
-  from {right: -572px;top: -544px;}
-  to {right: -172px;top: -244px;}
+    from {
+        right: -572px;
+        top: -544px;
+    }
+
+    to {
+        right: -172px;
+        top: -244px;
+    }
 }
+
 @keyframes move2 {
-  from {right: -372px;top: -344px;}
-  to {right: 50px;top: -100px;}
+    from {
+        right: -372px;
+        top: -344px;
+    }
+
+    to {
+        right: 50px;
+        top: -100px;
+    }
 }
+
 @keyframes move3 {
-  from {left: 900px;top: -10px;}
-  to {left: -200px;top: 20px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: -200px;
+        top: 20px;
+    }
 }
 
 @keyframes move4 {
-  from {left: 900px;top: -10px;}
-  to {left: 20px;top: 128px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: 20px;
+        top: 128px;
+    }
 }
+
 @keyframes move5 {
-  from {right: -372px;top: -344px;}
-  to {right: 60px;top: -100px;}
+    from {
+        right: -372px;
+        top: -344px;
+    }
+
+    to {
+        right: 60px;
+        top: -100px;
+    }
 }
 
 @keyframes move7 {
-  from {left: 900px;top: -10px;}
-  to {left: -102px;top: 110px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: -102px;
+        top: 110px;
+    }
 }
+
 @keyframes move6 {
-  from {right: -372px;top: -144px;}
-  to {right: 190px;top: 20px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: 190px;
+        top: 20px;
+    }
 }
 
 @keyframes move9 {
-  from {left: 900px;top: -10px;}
-  to {left: -30px;top: 110px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: -30px;
+        top: 110px;
+    }
 }
+
 @keyframes move8 {
-  from {right: -372px;top: -144px;}
-  to {right: 20px;top: -60px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: 20px;
+        top: -60px;
+    }
 }
 
 @keyframes move11 {
-  from {left: 900px;top: -10px;}
-  to {left: 89px;top: 172px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: 89px;
+        top: 172px;
+    }
 }
+
 @keyframes move10 {
-  from {right: -372px;top: -144px;}
-  to {right: 140px;top: -75px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: 140px;
+        top: -75px;
+    }
 }
 
 @keyframes move13 {
-  from {left: 900px;top: -10px;}
-  to {left: 89px;top: 172px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: 89px;
+        top: 172px;
+    }
 }
+
 @keyframes move12 {
-  from {right: -372px;top: -144px;}
-  to {right: 140px;top: -95px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: 140px;
+        top: -95px;
+    }
 }
 
 @keyframes move15 {
-  from {left: 900px;top: -10px;}
-  to {left: -45px;top: 110px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: -45px;
+        top: 110px;
+    }
 }
+
 @keyframes move14 {
-  from {right: -372px;top: -144px;}
-  to {right: -45px;top: -170px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: -45px;
+        top: -170px;
+    }
 }
 
 @keyframes move17 {
-  from {left: 900px;top: -10px;}
-  to {left: 45px;top: 170px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: 45px;
+        top: 170px;
+    }
 }
+
 @keyframes move16 {
-  from {right: -372px;top: -144px;}
-  to {right: 45px;top: -110px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: 45px;
+        top: -110px;
+    }
 }
 
 @keyframes move18 {
-  from {left: 900px;top: -10px;}
-  to {left: 115px;top: 170px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: 115px;
+        top: 170px;
+    }
 }
+
 @keyframes move19 {
-  from {right: -372px;top: -144px;}
-  to {right: 85px;top: -80px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: 85px;
+        top: -80px;
+    }
 }
 
 
 @keyframes move21 {
-  from {left: 900px;top: -10px;}
-  to {left: -96px;top: 165px;}
+    from {
+        left: 900px;
+        top: -10px;
+    }
+
+    to {
+        left: -96px;
+        top: 165px;
+    }
 }
+
 @keyframes move20 {
-  from {right: -372px;top: -144px;}
-  to {right: -20px;top: -130px;}
+    from {
+        right: -372px;
+        top: -144px;
+    }
+
+    to {
+        right: -20px;
+        top: -130px;
+    }
 }
 
 @keyframes move22 {
-  from {left: -90px;top: -10px;}
-  to {left: -90px;top: 325px;}
+    from {
+        left: -90px;
+        top: -10px;
+    }
+
+    to {
+        left: -90px;
+        top: 325px;
+    }
 }
 
 @keyframes move23 {
-  from {right: 35px;top: 890px;}
-  to {right: 35px;top: 90px;}
+    from {
+        right: 35px;
+        top: 890px;
+    }
+
+    to {
+        right: 35px;
+        top: 90px;
+    }
 }
 
 
-body{
+body {
     background: linear-gradient(#284b60, #020516);
     overflow: hidden;
 }
+
 /*home page desktop*/
-.main_outer{
-     animation: movetop 3s;
-     animation-fill-mode: forwards;
-     position: relative;
+.main_outer {
+    animation: movetop 3s;
+    animation-fill-mode: forwards;
+    position: relative;
 }
+
 div#welcome_section {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-     background-image: url('../../images/home/Landing-Page-Background-NEW.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  max-width: 100%;
+    background-image: url('../../images/home/Landing-Page-Background-NEW.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
 }
+
 #welcome_section h1 {
     font-family: 'agent_orange';
     font-size: 32px;
@@ -180,9 +374,10 @@ div#welcome_section {
     top: 2px;
     left: 16px;
     rotate: 357deg;
-     animation: movedown 2s;
-     animation-fill-mode: forwards;
+    animation: movedown 2s;
+    animation-fill-mode: forwards;
 }
+
 #welcome_section h2 {
     font-family: 'RifficFree';
     font-size: 38px;
@@ -190,6 +385,7 @@ div#welcome_section {
     text-align: center;
     margin-left: 50px;
 }
+
 div#welcome_section img {
     max-width: 370px;
     position: relative;
@@ -199,19 +395,20 @@ div#welcome_section img {
 /*/////// main home ///////*/
 
 #section_1 {
-    background-image: url(../../images/home/Navigation-acInstructions-BG-by-[i-smokestack].png);
+    background-image: url('../../images/home/Navigation-acInstructions-BG-by-[i-smokestack].png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     background-position-y: bottom;
 }
+
 #section_1 img.Red-planet {
     max-width: 190px;
     position: absolute;
     top: 20px;
     left: -115px;
-     animation: moveleft 4s;
-     animation-fill-mode: forwards;
+    animation: moveleft 4s;
+    animation-fill-mode: forwards;
 }
 
 #section_1 img.sky-blue-Planet {
@@ -219,12 +416,12 @@ div#welcome_section img {
     position: absolute;
     top: -244px;
     right: -172px;
-      animation: moveright 4s;
-     animation-fill-mode: forwards;
+    animation: moveright 4s;
+    animation-fill-mode: forwards;
 }
 
-#section_1  .main_outer1 {
-    background-image: url(../../images/home/Screen.png);
+#section_1 .main_outer1 {
+    background-image: url('../../images/home/Screen.png');
     background-repeat: no-repeat;
     width: 100%;
     margin: auto;
@@ -236,65 +433,75 @@ div#welcome_section img {
     text-align: center;
 
 }
-#section_1  .main{
+
+#section_1 .main {
     min-height: 100vh;
     max-width: 614px;
     margin: auto;
 }
-#section_1  .main_outer1 h2{
-   font-family: 'agent_orange';
+
+#section_1 .main_outer1 h2 {
+    font-family: 'agent_orange';
     font-size: 26px;
     color: #fff;
-  width: 41%;
+    width: 41%;
     margin: auto;
     text-align: left !important;
-        margin-bottom: 10px;
-         cursor: pointer;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
-#section_1  .main_outer1 h3{
-  font-family: 'RifficFree';
+
+#section_1 .main_outer1 h3 {
+    font-family: 'RifficFree';
     font-size: 40px;
     color: #fff;
- width: 41%;
+    width: 41%;
     margin: auto;
     text-align: left !important;
     cursor: pointer;
 }
-#section_1  .main_outer1 img{
+
+#section_1 .main_outer1 img {
     max-width: 38px;
     margin-right: 18px;
 
 }
-#section_1  .main_outer1 h2 img{
-  position: relative;
+
+#section_1 .main_outer1 h2 img {
+    position: relative;
     top: 12px;
 }
-#section_1  .main_outer1 h3 img{
+
+#section_1 .main_outer1 h3 img {
     position: relative;
     top: 4px;
 }
-#section_1  .main_outer1 p.heading span {
+
+#section_1 .main_outer1 p.heading span {
     background: linear-gradient(to right, #47cdc1, #70cf97);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'GalanoGrotesqueAltBold';
 }
-#section_1  .main_outer1 p.heading {
+
+#section_1 .main_outer1 p.heading {
     font-size: 36px;
     margin-bottom: 1.6rem;
     color: #fff;
     font-family: 'GalanoGrotesqueAltMedium';
 }
-#section_1  #main2  .main_outer1 {
+
+#section_1 #main2 .main_outer1 {
     padding: 5.5rem 0 !important;
 }
 
-#section_1  #main2 {
+#section_1 #main2 {
     font-size: 31px;
     font-family: 'GalanoGrotesqueAltBold';
     color: #fff;
 }
-#section_1  #main2  .main_outer1 h2.heading3 {
+
+#section_1 #main2 .main_outer1 h2.heading3 {
     font-family: 'GalanoGrotesqueAltBold';
     font-size: 50px;
     line-height: 44px;
@@ -307,17 +514,18 @@ div#welcome_section img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#section_1  #main2  .main_outer1 p.i-text {
-   font-family: 'GalanoGrotesqueAltRegular';
+
+#section_1 #main2 .main_outer1 p.i-text {
+    font-family: 'GalanoGrotesqueAltRegular';
     font-size: 24px;
     color: #fff;
     letter-spacing: 1px;
     font-style: italic;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 #section_2 {
-    background-image: url(../../images/home/1-You-and-i-bring-user-experience-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/1-You-and-i-bring-user-experience-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -329,8 +537,8 @@ div#welcome_section img {
     position: absolute;
     top: -100px;
     right: 50px;
-     animation: move2 3s;
-     animation-fill-mode: forwards;
+    animation: move2 3s;
+    animation-fill-mode: forwards;
 }
 
 #section_2 img.sky-blue-Planet {
@@ -338,22 +546,25 @@ div#welcome_section img {
     position: absolute;
     top: 20px;
     left: -200px;
-     animation: move3 4s;
-     animation-fill-mode: forwards;
+    animation: move3 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_2 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 3rem;
 }
+
 #section_2 h2 span:nth-child(1) {
     font-family: 'agent_orange';
     font-size: 66px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-right: 16px;
 }
+
 #section_2 h2 {
     font-family: 'RifficFree';
     font-size: 38px;
@@ -362,25 +573,28 @@ div#welcome_section img {
     display: flex;
     align-items: flex-end;
 }
-#section_2 p{
+
+#section_2 p {
     font-family: 'RifficFree';
     font-size: 32px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 62%;
-    margin: auto; 
+    margin: auto;
     cursor: pointer;
 }
+
 #section_2 img.user-experience {
     position: absolute;
     width: 67%;
     left: 8%;
     top: 184px;
 }
+
 #section_3 {
-    background-image: url(../../images/home/1-You-and-i-bring-user-experience-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/1-You-and-i-bring-user-experience-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -392,29 +606,33 @@ div#welcome_section img {
     position: absolute;
     top: -100px;
     right: 60px;
-      animation: move5 3s;
-     animation-fill-mode: forwards;
+    animation: move5 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_3 img.Purple-Big {
     max-width: 140px;
     position: absolute;
     top: 128px;
     left: 20px;
-      animation: move4 4s;
-     animation-fill-mode: forwards;
+    animation: move4 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_3 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 3rem;
 }
+
 #section_3 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 62px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_3 h2 {
     font-family: 'RifficFree';
     font-size: 60px;
@@ -422,19 +640,21 @@ div#welcome_section img {
     margin-top: 3rem;
     display: flex;
     align-items: flex-end;
-        column-gap: 15px;
+    column-gap: 15px;
 }
-#section_3 p{
+
+#section_3 p {
     font-family: 'RifficFree';
     font-size: 34px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_3 img.settle-for-anything {
     position: absolute;
     width: 69%;
@@ -445,7 +665,7 @@ div#welcome_section img {
 
 
 #section_4 {
-    background-image: url(../../images/home/3-Douts-we-mute-hem-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/3-Douts-we-mute-hem-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -457,29 +677,33 @@ div#welcome_section img {
     position: absolute;
     top: 20px;
     right: 190px;
-      animation: move6 3s;
-     animation-fill-mode: forwards;
+    animation: move6 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_4 img.orange-planet-right {
     max-width: 220px;
     position: absolute;
     top: 110px;
     left: -102px;
-      animation: move7 4s;
-     animation-fill-mode: forwards;
+    animation: move7 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_4 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 4rem;
 }
+
 #section_4 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 66px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_4 h2 {
     font-family: 'RifficFree';
     font-size: 42px;
@@ -487,19 +711,21 @@ div#welcome_section img {
     margin-top: 3rem;
     display: flex;
     align-items: flex-end;
-        column-gap: 16px;
+    column-gap: 16px;
 }
-#section_4 p{
+
+#section_4 p {
     font-family: 'RifficFree';
     font-size: 38px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 58%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_4 img.settle-for-anything {
     position: absolute;
     width: 52%;
@@ -509,7 +735,7 @@ div#welcome_section img {
 }
 
 #section_5 {
-    background-image: url(../../images/home/4-We-Do-more-by-doing-less-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/4-We-Do-more-by-doing-less-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -521,29 +747,33 @@ div#welcome_section img {
     position: absolute;
     top: -60px;
     right: 20px;
-      animation: move8 3s;
-     animation-fill-mode: forwards;
+    animation: move8 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_5 img.right-pink {
     max-width: 140px;
     position: absolute;
     top: 110px;
     left: -30px;
-      animation: move9 4s;
-     animation-fill-mode: forwards;
+    animation: move9 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_5 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 4rem;
 }
+
 #section_5 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 58px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_5 h2 {
     font-family: 'RifficFree';
     font-size: 54px;
@@ -551,19 +781,21 @@ div#welcome_section img {
     margin-top: 3rem;
     display: flex;
     align-items: flex-end;
-        column-gap: 18px;
+    column-gap: 18px;
 }
-#section_5 p{
+
+#section_5 p {
     font-family: 'RifficFree';
     font-size: 36px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 84%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_5 img.settle-for-anything {
     position: absolute;
     width: 73%;
@@ -571,6 +803,7 @@ div#welcome_section img {
     left: 3%;
     top: 166px;
 }
+
 #section_5 sup {
     position: relative;
     left: -20px;
@@ -580,7 +813,7 @@ div#welcome_section img {
 
 
 #section_6 {
-    background-image: url(../../images/home/5-we-understand-you-better-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/5-we-understand-you-better-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -592,29 +825,33 @@ div#welcome_section img {
     position: absolute;
     top: -75px;
     right: 140px;
-      animation: move10 3s;
-     animation-fill-mode: forwards;
+    animation: move10 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_6 img.right-blue-planet {
     max-width: 170px;
     position: absolute;
     top: 172px;
     left: 89px;
-      animation: move11 4s;
-     animation-fill-mode: forwards;
+    animation: move11 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_6 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 4rem;
 }
+
 #section_6 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 60px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_6 h2 {
     font-family: 'RifficFree';
     font-size: 56px;
@@ -622,19 +859,21 @@ div#welcome_section img {
     margin-top: 3rem;
     display: flex;
     align-items: flex-end;
-        column-gap: 18px;
+    column-gap: 18px;
 }
-#section_6 p{
+
+#section_6 p {
     font-family: 'RifficFree';
     font-size: 32px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 48%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_6 img.settle-for-anything {
     position: absolute;
     width: 88%;
@@ -642,6 +881,7 @@ div#welcome_section img {
     left: 16%;
     top: 143px;
 }
+
 #section_6 sup {
     position: relative;
     left: -20px;
@@ -651,7 +891,7 @@ div#welcome_section img {
 
 
 #section_7 {
-    background-image: url(../../images/home/6-We-Doit-for-Empathy-and-user-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/6-We-Doit-for-Empathy-and-user-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -663,29 +903,33 @@ div#welcome_section img {
     position: absolute;
     top: -95px;
     right: 140px;
-      animation: move12 3s;
-     animation-fill-mode: forwards;
+    animation: move12 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_7 img.pink-blue-big-planet {
     max-width: 120px;
     position: absolute;
     top: 172px;
     left: 89px;
-     animation: move13 4s;
-     animation-fill-mode: forwards;
+    animation: move13 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_7 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 3rem;
 }
+
 #section_7 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 66px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_7 h2 {
     font-family: 'RifficFree';
     font-size: 60px;
@@ -693,22 +937,25 @@ div#welcome_section img {
     margin-top: 3rem;
     display: flex;
     align-items: flex-end;
-        column-gap: 16px;
+    column-gap: 16px;
 }
-#section_7  h2.bottom span {
+
+#section_7 h2.bottom span {
     font-size: 52px;
 }
-#section_7 p{
+
+#section_7 p {
     font-family: 'RifficFree';
     font-size: 34px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 70%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_7 img.settle-for-anything {
     position: absolute;
     width: 57%;
@@ -716,13 +963,14 @@ div#welcome_section img {
     left: 10%;
     top: 177px;
 }
+
 #section_7 h2.bottom {
     column-gap: 0 !important;
 }
 
 
 #section_8 {
-    background-image: url(../../images/home/7-we-have-modern-solution-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/7-we-have-modern-solution-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -734,29 +982,33 @@ div#welcome_section img {
     position: absolute;
     top: -170px;
     right: 45px;
-     animation: move14 3s;
-     animation-fill-mode: forwards;
+    animation: move14 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_8 img.Rock-Big-planet {
     max-width: 130px;
     position: absolute;
     top: 110px;
     left: -45px;
-     animation: move15 4s;
-     animation-fill-mode: forwards;
+    animation: move15 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_8 .main_outer {
-  max-width: 50%;
+    max-width: 50%;
     margin: auto;
     padding-top: 2rem;
 }
+
 #section_8 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 62px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_8 h2 {
     font-family: 'RifficFree';
     font-size: 38px;
@@ -764,17 +1016,19 @@ div#welcome_section img {
     margin-top: 3rem;
 
 }
-#section_8 p{
+
+#section_8 p {
     font-family: 'RifficFree';
     font-size: 32px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_8 img.settle-for-anything {
     position: absolute;
     width: 67%;
@@ -784,7 +1038,7 @@ div#welcome_section img {
 }
 
 #section_9 {
-    background-image: url(../../images/home/8-We-have-Emapths-for-human-problems-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/8-We-have-Emapths-for-human-problems-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -796,50 +1050,56 @@ div#welcome_section img {
     position: absolute;
     top: -110px;
     right: 45px;
-     animation: move16 3s;
-     animation-fill-mode: forwards;
+    animation: move16 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_9 img.Purple-blue-Big-planet {
     max-width: 140px;
     position: absolute;
     top: 170px;
     left: 45px;
     rotate: 267deg;
-     animation: move17 4s;
-     animation-fill-mode: forwards;
+    animation: move17 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_9 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 2rem;
 }
+
 #section_9 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 66px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-      line-height: 1.3;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.3;
 }
+
 #section_9 h2 {
     font-family: 'RifficFree';
     font-size: 32px;
     color: #fff;
     margin-top: 3rem;
-     cursor: pointer;
+    cursor: pointer;
 
 }
-#section_9 p{
+
+#section_9 p {
     font-family: 'RifficFree';
     font-size: 28px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_9 img.settle-for-anything {
     position: absolute;
     width: 33%;
@@ -849,50 +1109,55 @@ div#welcome_section img {
 }
 
 #section_10 {
-    background-image: url(../../images/home/9-We-turn-busy-ness-to-business-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/9-We-turn-busy-ness-to-business-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     background-position-y: bottom;
 }
 
-#section_10 img.Fire-Big-ball{
+#section_10 img.Fire-Big-ball {
     max-width: 180px;
     position: absolute;
     top: -80px;
     right: 85px;
-     animation: move19 3s;
-     animation-fill-mode: forwards;
+    animation: move19 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_10 img.Orange-fire-big-planet {
     max-width: 120px;
     position: absolute;
     top: 170px;
     left: 115px;
     rotate: 267deg;
-      animation: move18 4s;
-     animation-fill-mode: forwards;
+    animation: move18 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_10 .main_outer {
-  max-width: 50%;
+    max-width: 50%;
     margin: auto;
     padding-top: 3rem;
 }
+
 #section_10 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 60px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_10 h2 {
     font-family: 'RifficFree';
     font-size: 36px;
     color: #fff;
     margin-top: 3rem;
-     cursor: pointer;
+    cursor: pointer;
 
 }
+
 #section_10 img.settle-for-anything {
     position: absolute;
     width: 68%;
@@ -900,6 +1165,7 @@ div#welcome_section img {
     left: 5%;
     top: 214px;
 }
+
 #section_10 sup {
     position: relative;
     left: -8px;
@@ -909,61 +1175,67 @@ div#welcome_section img {
 
 
 #section_11 {
-    background-image: url(../../images/home/10-Our-Revolution-break-the-sterotype-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/10-Our-Revolution-break-the-sterotype-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     background-position-y: bottom;
 }
 
-#section_11 img.Big-mars-planet{
+#section_11 img.Big-mars-planet {
     max-width: 240px;
     position: absolute;
     top: -80px;
     right: 85px;
-      animation: move19 3s;
-     animation-fill-mode: forwards;
+    animation: move19 3s;
+    animation-fill-mode: forwards;
 }
-#section_11 img.Fire-Big-ball{
+
+#section_11 img.Fire-Big-ball {
     max-width: 120px;
     position: absolute;
     top: 170px;
     left: 115px;
     rotate: 14deg;
-      animation: move18 3s;
-     animation-fill-mode: forwards;
+    animation: move18 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_11 .main_outer {
-  max-width: 50%;
+    max-width: 50%;
     margin: auto;
     padding-top: 2rem;
 }
+
 #section_11 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 60px;
-       background: -webkit-linear-gradient(#fff, #2ac094);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#fff, #2ac094);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 #section_11 h2 {
     font-family: 'RifficFree';
     font-size: 32px;
     color: #fff;
     margin-top: 3rem;
-     cursor: pointer;
+    cursor: pointer;
 
 }
-#section_11 p{
+
+#section_11 p {
     font-family: 'RifficFree';
     font-size: 28px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_11 img.settle-for-anything {
     position: absolute;
     width: 64%;
@@ -971,8 +1243,9 @@ div#welcome_section img {
     left: 5%;
     top: 227px;
 }
+
 #section_12 {
-    background-image: url(../../images/home/11-Be-achangemaker-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/11-Be-achangemaker-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -984,23 +1257,26 @@ div#welcome_section img {
     position: absolute;
     top: -130px;
     right: -20px;
-      animation: move20 3s;
-     animation-fill-mode: forwards;
+    animation: move20 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_12 img.Big-mars-planet {
     max-width: 220px;
     position: absolute;
     top: 165px;
     left: -96px;
     rotate: 4deg;
-       animation: move20 4s;
-     animation-fill-mode: forwards;
+    animation: move20 4s;
+    animation-fill-mode: forwards;
 }
+
 #section_12 .main_outer {
-  max-width: 50%;
+    max-width: 50%;
     margin: auto;
     padding-top: 2rem;
 }
+
 #section_12 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 60px;
@@ -1009,25 +1285,28 @@ div#welcome_section img {
     -webkit-text-fill-color: transparent;
     line-height: 1.3;
 }
+
 #section_12 h2 {
     font-family: 'RifficFree';
     font-size: 42px;
     color: #fff;
     margin-top: 3rem;
-     cursor: pointer;
+    cursor: pointer;
 
 }
-#section_12 p{
+
+#section_12 p {
     font-family: 'RifficFree';
     font-size: 36px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_12 img.settle-for-anything {
     position: absolute;
     width: 82%;
@@ -1035,34 +1314,39 @@ div#welcome_section img {
     left: 9%;
     top: 204px;
 }
+
 #section_13 {
-    background-image: url(../../images/home/12-Power-lies-in-your-hand-BGby-[i-smokestack].jpg);
+    background-image: url('../../images/home/12-Power-lies-in-your-hand-BGby-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     background-position-y: bottom;
 }
+
 #section_13 img.earth {
     max-width: 270px;
     position: absolute;
     top: -170px;
     right: -30px;
-        z-index: 2;
+    z-index: 2;
 }
+
 #section_13 img.Big-mars-planet {
     max-width: 210px;
     position: absolute;
     top: 325px;
     left: -90px;
     rotate: 4deg;
-       animation: move22 3s;
-     animation-fill-mode: forwards;
+    animation: move22 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_13 .main_outer {
     max-width: 50%;
     margin: auto;
     padding-top: 3rem;
 }
+
 #section_13 h2 span.extra {
     font-family: 'agent_orange';
     font-size: 60px;
@@ -1071,25 +1355,28 @@ div#welcome_section img {
     -webkit-text-fill-color: transparent;
     line-height: 1.4;
 }
+
 #section_13 h2 {
     font-family: 'RifficFree';
     font-size: 34px;
     color: #fff;
     margin-top: 3rem;
-     cursor: pointer;
+    cursor: pointer;
 
 }
-#section_13 p{
+
+#section_13 p {
     font-family: 'RifficFree';
     font-size: 40px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_13 img.settle-for-anything {
     position: absolute;
     width: 34%;
@@ -1097,12 +1384,13 @@ div#welcome_section img {
     left: 10%;
     top: 207px;
 }
-#section_13  img.rocket {
+
+#section_13 img.rocket {
     position: absolute;
     max-width: 230px;
     right: -20px;
     bottom: -195px;
-        z-index: 2;
+    z-index: 2;
 }
 
 .slider-container {
@@ -1115,13 +1403,13 @@ div#welcome_section img {
 }
 
 .slider-range {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transform: rotate(90deg);
 }
 
 .slider-track {
@@ -1130,7 +1418,7 @@ div#welcome_section img {
     left: -30px;
 }
 
-.slider-track  img{
+.slider-track img {
     max-width: 36px;
     rotate: 180deg;
 }
@@ -1142,18 +1430,19 @@ div#welcome_section img {
     cursor: grab;
     rotate: 180deg;
 }
-.slider-handle img{
 
-        max-width: 80px;
+.slider-handle img {
+    max-width: 80px;
 }
 
 #section_14 {
-    background-image: url(../../images/home/13-Here-is-a-Gift-for-you-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/13-Here-is-a-Gift-for-you-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     background-position-y: bottom;
 }
+
 #section_14 img.earth {
     max-width: 370px;
     position: absolute;
@@ -1161,11 +1450,13 @@ div#welcome_section img {
     right: -50px;
     z-index: 2;
 }
+
 #section_14 .main_outer {
-  max-width: 40%;
+    max-width: 40%;
     margin: auto;
     padding-top: 4rem;
 }
+
 #section_14 h2 {
     font-family: 'GalanoGrotesqueAltBold';
     font-size: 38px;
@@ -1174,17 +1465,19 @@ div#welcome_section img {
     cursor: pointer;
     text-align: center;
 }
-#section_14 p{
+
+#section_14 p {
     font-family: 'RifficFree';
     font-size: 32px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_14 img.settle-for-anything {
     position: absolute;
     width: 19%;
@@ -1192,15 +1485,17 @@ div#welcome_section img {
     left: 34%;
     top: 218px;
 }
+
 #section_14 img.rocket {
     position: absolute;
     max-width: 200px;
     right: 35px;
     z-index: 2;
     top: 90px;
-       animation: move23 3s;
-     animation-fill-mode: forwards;
+    animation: move23 3s;
+    animation-fill-mode: forwards;
 }
+
 #section_14 a.Skip {
     color: #fff;
     font-family: 'GalanoGrotesqueAltBold';
@@ -1212,6 +1507,7 @@ div#welcome_section img {
     border-radius: 40px;
     cursor: pointer;
 }
+
 #section_14 a.Claim {
     color: #000;
     font-family: 'GalanoGrotesqueAltBold';
@@ -1224,33 +1520,34 @@ div#welcome_section img {
     border-color: linear-gradient(to right, #24c5b6c7, #43ff90);
     background: linear-gradient(to right, #24c5b6c7, #43ff90);
 }
+
 #section_14 .btns {
     text-align: center;
 }
 
-    /* Styling for form fields */
-       #section_14  input[type=text], select {
-          padding: 12px 20px;
-          margin: 8px 0;
-          display: inline-block;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-          box-sizing: border-box;
-              width: 100%;
-        }
+/* Styling for form fields */
+#section_14 input[type=text],
+select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
 
-        #phone{
-               width: 80%;
-        }
+#phone {
+    width: 80%;
+}
 
-        #country-code{
-               width: 20%;
-        }
+#country-code {
+    width: 20%;
+}
 
-
-        /* Styling for submit button */
-       #section_14 input[type=submit] {
- border: none;
+/* Styling for submit button */
+#section_14 input[type=submit] {
+    border: none;
     color: #000;
     font-family: 'GalanoGrotesqueAltBold';
     font-size: 22px;
@@ -1260,8 +1557,9 @@ div#welcome_section img {
     cursor: pointer;
     background: linear-gradient(to right, #24c5b6c7, #43ff90);
 }
-        /* Styling for form container */
-      #section_14 .form-container {
+
+/* Styling for form container */
+#section_14 .form-container {
     background-color: #f2f2f2;
     padding: 20px;
     border-radius: 5px;
@@ -1272,7 +1570,7 @@ div#welcome_section img {
     margin: 0 auto;
 }
 
-        /* Styling for close button */
+/* Styling for close button */
 #section_14 .close-button {
     position: absolute;
     top: 10px;
@@ -1286,7 +1584,6 @@ div#welcome_section img {
     border-radius: 45px;
 }
 
-
 #section_14 .form-container {
     background: #fff;
     padding: 30px 26px;
@@ -1294,12 +1591,13 @@ div#welcome_section img {
 }
 
 #section_15 {
-    background-image: url(../../images/home/13-Here-is-a-Gift-for-you-BG-by-[i-smokestack].jpg);
+    background-image: url('../../images/home/13-Here-is-a-Gift-for-you-BG-by-[i-smokestack].jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     background-position-y: bottom;
 }
+
 #section_15 img.earth {
     max-width: 270px;
     position: absolute;
@@ -1309,10 +1607,11 @@ div#welcome_section img {
 }
 
 #section_15 .main_outer {
-  max-width: 40%;
+    max-width: 40%;
     margin: auto;
     padding-top: 4rem;
 }
+
 #section_15 h2 {
     font-family: 'GalanoGrotesqueAltBold';
     font-size: 38px;
@@ -1321,17 +1620,19 @@ div#welcome_section img {
     cursor: pointer;
     text-align: center;
 }
-#section_15 p{
+
+#section_15 p {
     font-family: 'RifficFree';
     font-size: 32px;
-      background: linear-gradient(to right, #24c5b6c7, #43ff90);
+    background: linear-gradient(to right, #24c5b6c7, #43ff90);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-     text-align: left;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
     width: 72%;
-    margin: auto; 
-     cursor: pointer;
+    margin: auto;
+    cursor: pointer;
 }
+
 #section_15 img.settle-for-anything {
     position: absolute;
     width: 19%;
@@ -1339,6 +1640,7 @@ div#welcome_section img {
     left: 34%;
     top: 218px;
 }
+
 #section_15 img.rocket {
     position: absolute;
     max-width: 180px;
@@ -1347,399 +1649,463 @@ div#welcome_section img {
     top: 110px;
 }
 
-
 /*home page mobile*/
-@media only screen and (max-width: 991px){
-#section_1 {
-    background-image: url(../../images/home/1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_1 img.sky-blue-Planet {
-    display: none;
-}
-#section_1 img.Red-planet {
-    display: none;
-}
-#section_1 #main1{
-display: none;
-}
-#section_1 div#main2 {
-    display: flex !important;
-    position: relative;
-    top: -100PX;
-}
-#section_1 #main2 .main_outer1 {
-    padding: 1.5rem 0 !important;
-    width: 90%;
-}
-#section_2 {
-    background-image: url(../../images/home/2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_2 img.sky-blue-Planet {
-    display: none;
-}
-#section_2 img.Purple-Big {
-    display: none;
-}
-.main_outer {
-    max-width:84% !important;
-    position: relative;
-    top: 85px;
-}
-#section_2 h2 span:nth-child(1) {
-    font-size: 26px;
-}
-#section_2 h2 {
-    font-family: 'RifficFree';
-    font-size: 28px;
-}
-#section_2 p {
-    font-size: 27px;
+@media only screen and (max-width: 991px) {
+    #section_1 {
+        background-image: url('../../images/home/1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_1 img.sky-blue-Planet {
+        display: none;
+    }
+
+    #section_1 img.Red-planet {
+        display: none;
+    }
+
+    #section_1 #main1 {
+        display: none;
+    }
+
+    #section_1 div#main2 {
+        display: flex !important;
+        position: relative;
+        top: -100PX;
+    }
+
+    #section_1 #main2 .main_outer1 {
+        padding: 1.5rem 0 !important;
+        width: 90%;
+    }
+
+    #section_2 {
+        background-image: url('../../images/home/2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_2 img.sky-blue-Planet {
+        display: none;
+    }
+
+    #section_2 img.Purple-Big {
+        display: none;
+    }
+
+    .main_outer {
+        max-width: 84% !important;
+        position: relative;
+        top: 85px;
+    }
+
+    #section_2 h2 span:nth-child(1) {
+        font-size: 26px;
+    }
+
+    #section_2 h2 {
+        font-family: 'RifficFree';
+        font-size: 28px;
+    }
+
+    #section_2 p {
+        font-size: 27px;
         width: 78%;
-}
-#section_2 h2.bottom {
-    justify-content: right !important;
-}
+    }
 
+    #section_2 h2.bottom {
+        justify-content: right !important;
+    }
 
-#section_3 {
-    background-image: url(../../images/home/3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_3 img.orange-planet-right {
-    display: none;
-}
-#section_3 img.Purple-Big {
-    display: none;
-}
-#section_3 h2 {
-    font-size: 32px;
-}
-#section_3 h2 span.extra {
-    font-size: 36px;
+    #section_3 {
+        background-image: url('../../images/home/3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
 
-}
-#section_3 p {
-    font-size: 28px;
-    width: 88%;
-}
-#section_3 img.settle-for-anything {
-    position: absolute;
-    width: 99%;
-    height: 107px;
-    left: -3%;
-    top: 139px;
-}
+    #section_3 img.orange-planet-right {
+        display: none;
+    }
 
-#section_4 {
-    background-image: url(../../images/home/4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_4 img.right-pink {
-    display: none;
-}
-#section_4 img.orange-planet-right {
-    display: none;
-}
-#section_4 h2 span.extra {
-    font-size: 32px;
-}
-#section_4 h2 {
-    font-size: 30px;
-}
-#section_4 p {
-    font-size: 22px;
-    width: 76%;
-}
-#section_4 img.settle-for-anything {
-    position: absolute;
-    width: 78%;
-    height: 110px;
-    left: 2%;
-    top: 123px;
-}
+    #section_3 img.Purple-Big {
+        display: none;
+    }
 
+    #section_3 h2 {
+        font-size: 32px;
+    }
 
-#section_5 {
-    background-image: url(../../images/home/5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_5 img.right-blue-planet {
-    display: none;
-}
-#section_5 img.right-pink {
-    display: none;
-}
-#section_5 h2 {
-    font-size: 30px;
+    #section_3 h2 span.extra {
+        font-size: 36px;
+    }
+
+    #section_3 p {
+        font-size: 28px;
+        width: 88%;
+    }
+
+    #section_3 img.settle-for-anything {
+        position: absolute;
+        width: 99%;
+        height: 107px;
+        left: -3%;
+        top: 139px;
+    }
+
+    #section_4 {
+        background-image: url('../../images/home/4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_4 img.right-pink {
+        display: none;
+    }
+
+    #section_4 img.orange-planet-right {
+        display: none;
+    }
+
+    #section_4 h2 span.extra {
+        font-size: 32px;
+    }
+
+    #section_4 h2 {
+        font-size: 30px;
+    }
+
+    #section_4 p {
+        font-size: 22px;
+        width: 76%;
+    }
+
+    #section_4 img.settle-for-anything {
+        position: absolute;
+        width: 78%;
+        height: 110px;
+        left: 2%;
+        top: 123px;
+    }
+
+    #section_5 {
+        background-image: url('../../images/home/5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_5 img.right-blue-planet {
+        display: none;
+    }
+
+    #section_5 img.right-pink {
+        display: none;
+    }
+
+    #section_5 h2 {
+        font-size: 30px;
         column-gap: 12px;
 
-}
-#section_5 h2 span.extra {
-    font-size: 28px;
+    }
 
-}
-#section_5 sup {
-    position: relative;
-    left: -8px;
-    top: -35px;
-    font-size: 10px;
-}
-#section_5 h2.bottom {
-    justify-content: right;
-}
-#section_5 img.settle-for-anything {
-    position: absolute;
-    width: 80%;
-    height: 103px;
-    left: 3%;
-    top: 118px;
-}
+    #section_5 h2 span.extra {
+        font-size: 28px;
 
+    }
 
-#section_6 {
-    background-image: url(../../images/home/6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_6 img.pink-blue-big-planet {
-    display: none;
-}
-#section_6 h2.top {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-#section_6 h2 {
-    font-size: 36px;
-}
-#section_6 h2 span.extra {
-    font-size: 32px;
-}
-#section_6 p {
-    font-size: 23px;
-    width: 66%;
-}
-#section_6 img.right-blue-planet {
-    display: none;
-}
-#section_6 img.settle-for-anything {
-    position: absolute;
-    width: 88%;
-    height: 98px;
-    left: 8%;
-    top: 168px;
-}
+    #section_5 sup {
+        position: relative;
+        left: -8px;
+        top: -35px;
+        font-size: 10px;
+    }
 
+    #section_5 h2.bottom {
+        justify-content: right;
+    }
 
-#section_7 {
-    background-image: url(../../images/home/7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_7 img.Rock-Big-planet {
-    display: none;
-}
-#section_7 h2 {
-    font-size: 30px;
-        margin-left: 14px;
-}
-#section_7 h2 span.extra {
-    font-size: 32px;
-}
-#section_7 h2.bottom span {
-    font-size: unset;
-}
-#section_7 p {
-    font-size: 24px;
-    width: 85%;
-}
-#section_7 img.settle-for-anything {
-    position: absolute;
-    width: 77%;
-    height: 100px;
-    left: 0%;
-    top: 130px;
-}
-#section_7 img.pink-blue-big-planet {
-    display: none;
-}
+    #section_5 img.settle-for-anything {
+        position: absolute;
+        width: 80%;
+        height: 103px;
+        left: 3%;
+        top: 118px;
+    }
 
-#section_8 {
-    background-image: url(../../images/home/8.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_8 img.Rock-Big-planet {
-    display: none;
-}
-#section_8 img.Purple-blue-Big-planet {
-    display: none;
-}
-#section_8 h2 {
-    font-size: 26px;
-    margin-left: 10px;
-}
-#section_8 h2 span.extra {
-    font-size: 32px;
-}
-#section_8 p {
-    font-size: 18px;
-}
-#section_8 img.settle-for-anything {
-    position: absolute;
-    width: 83%;
-    height: 75px;
-    left: 7%;
-    top: 157px;
-}
+    #section_6 {
+        background-image: url('../../images/home/6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
 
-#section_9 {
-    background-image: url(../../images/home/9.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
+    #section_6 img.pink-blue-big-planet {
+        display: none;
+    }
 
-#section_9 img.Orange-fire-big-planet {
-    display: none;
-}
-#section_9 img.Purple-blue-Big-planet {
-    display: none;
-}
-#section_9 h2 {
-    font-size: 20px;
-    margin-left: 10px;
-}
-#section_9 h2 span.extra {
-    font-size: 34px;
-}
-#section_9 h2#con_btn8 {
-    width: 76%;
-}
+    #section_6 h2.top {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #section_6 h2 {
+        font-size: 36px;
+    }
+
+    #section_6 h2 span.extra {
+        font-size: 32px;
+    }
+
+    #section_6 p {
+        font-size: 23px;
+        width: 66%;
+    }
+
+    #section_6 img.right-blue-planet {
+        display: none;
+    }
+
+    #section_6 img.settle-for-anything {
+        position: absolute;
+        width: 88%;
+        height: 98px;
+        left: 8%;
+        top: 168px;
+    }
 
 
-#section_10 {
-    background-image: url(../../images/home/10.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
+    #section_7 {
+        background-image: url('../../images/home/7.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
 
-#section_10 img.Orange-fire-big-planet {
-    display: none;
-}
-#section_10 img.Fire-Big-ball {
-    display: none;
-}
-#section_10 h2 {
-    font-size: 26px;
-}
-#section_10 h2 span.extra {
-    font-size: 25px;
-}
-#section_10 sup {
-    position: relative;
-    left: -8px;
-    top: -16px;
-    font-size: 10px;
-}
-#section_10 img.settle-for-anything {
-    position: absolute;
-    width: 66%;
-    height: 100px;
-    left: 3%;
-    top: 142px;
-}
+    #section_7 img.Rock-Big-planet {
+        display: none;
+    }
 
-
-
-#section_11 {
-    background-image: url(../../images/home/11.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_11 img.Big-mars-planet {
-    display: none;
-}
-#section_11 img.Fire-Big-ball {
-    display: none;
-}
-
-#section_11 h2.top span {
+    #section_7 h2 {
         font-size: 30px;
-}
-#section_11 h2 span.extra {
-    font-size: 32px;
-}
-#section_11 h2#con_btn10 {
-    width: 94%;
-}
-#section_11 h2 {
-    font-size: 20px;
-}
-#section_11 img.settle-for-anything {
-    position: absolute;
-    width: 85%;
-    height: 113px;
-    left: -3%;
-    top: 153px;
-}
+        margin-left: 14px;
+    }
 
+    #section_7 h2 span.extra {
+        font-size: 32px;
+    }
 
-#section_12 {
-    background-image: url(../../images/home/12.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    background-position-y: bottom;
-}
-#section_12 img.earth {
-    display: none;
-}
-#section_12 img.Big-mars-planet {
-    display: none;
-}
-#section_12 h2 {
-    font-size: 26px;
-}
-#section_12 h2 span.extra {
-    font-size: 28px;
-}
-#section_12 p {
-    font-size: 20px;
-}
-#section_12 img.settle-for-anything {
-    position: absolute;
-    width: 82%;
-    height: 83px;
-    left: 9%;
-    top: 148px;
-}
+    #section_7 h2.bottom span {
+        font-size: unset;
+    }
+
+    #section_7 p {
+        font-size: 24px;
+        width: 85%;
+    }
+
+    #section_7 img.settle-for-anything {
+        position: absolute;
+        width: 77%;
+        height: 100px;
+        left: 0%;
+        top: 130px;
+    }
+
+    #section_7 img.pink-blue-big-planet {
+        display: none;
+    }
+
+    #section_8 {
+        background-image: url('../../images/home/8.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_8 img.Rock-Big-planet {
+        display: none;
+    }
+
+    #section_8 img.Purple-blue-Big-planet {
+        display: none;
+    }
+
+    #section_8 h2 {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+
+    #section_8 h2 span.extra {
+        font-size: 32px;
+    }
+
+    #section_8 p {
+        font-size: 18px;
+    }
+
+    #section_8 img.settle-for-anything {
+        position: absolute;
+        width: 83%;
+        height: 75px;
+        left: 7%;
+        top: 157px;
+    }
+
+    #section_9 {
+        background-image: url('../../images/home/9.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_9 img.Orange-fire-big-planet {
+        display: none;
+    }
+
+    #section_9 img.Purple-blue-Big-planet {
+        display: none;
+    }
+
+    #section_9 h2 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    #section_9 h2 span.extra {
+        font-size: 34px;
+    }
+
+    #section_9 h2#con_btn8 {
+        width: 76%;
+    }
+
+    #section_10 {
+        background-image: url('../../images/home/10.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_10 img.Orange-fire-big-planet {
+        display: none;
+    }
+
+    #section_10 img.Fire-Big-ball {
+        display: none;
+    }
+
+    #section_10 h2 {
+        font-size: 26px;
+    }
+
+    #section_10 h2 span.extra {
+        font-size: 25px;
+    }
+
+    #section_10 sup {
+        position: relative;
+        left: -8px;
+        top: -16px;
+        font-size: 10px;
+    }
+
+    #section_10 img.settle-for-anything {
+        position: absolute;
+        width: 66%;
+        height: 100px;
+        left: 3%;
+        top: 142px;
+    }
+
+    #section_11 {
+        background-image: url('../../images/home/11.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_11 img.Big-mars-planet {
+        display: none;
+    }
+
+    #section_11 img.Fire-Big-ball {
+        display: none;
+    }
+
+    #section_11 h2.top span {
+        font-size: 30px;
+    }
+
+    #section_11 h2 span.extra {
+        font-size: 32px;
+    }
+
+    #section_11 h2#con_btn10 {
+        width: 94%;
+    }
+
+    #section_11 h2 {
+        font-size: 20px;
+    }
+
+    #section_11 img.settle-for-anything {
+        position: absolute;
+        width: 85%;
+        height: 113px;
+        left: -3%;
+        top: 153px;
+    }
+
+    #section_12 {
+        background-image: url('../../images/home/12.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        background-position-y: bottom;
+    }
+
+    #section_12 img.earth {
+        display: none;
+    }
+
+    #section_12 img.Big-mars-planet {
+        display: none;
+    }
+
+    #section_12 h2 {
+        font-size: 26px;
+    }
+
+    #section_12 h2 span.extra {
+        font-size: 28px;
+    }
+
+    #section_12 p {
+        font-size: 20px;
+    }
+
+    #section_12 img.settle-for-anything {
+        position: absolute;
+        width: 82%;
+        height: 83px;
+        left: 9%;
+        top: 148px;
+    }
 }
